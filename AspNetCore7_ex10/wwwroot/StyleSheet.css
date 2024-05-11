@@ -1,0 +1,99 @@
+﻿body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    background-color: #f7f7f7;
+}
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container
+{
+    min-width: 500px;
+}
+
+.app-title
+{
+    font-size: 1.9em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 20px;
+}
+
+.login-button
+{
+    margin-right:16px;
+}
+
+.navbar
+{
+    padding: 10px;
+}
+
+.navbar > ul{
+    list-style-type: none;
+    width: 100%;
+}
+
+.navbar > ul > il {
+    width: 100%;
+}
+
+.navbar > ul > il > a:link, .navbar > ul > il > a:visited {
+    padding: 4px 8px;
+    cursor: pointer;
+}
+
+.navbar-brand
+{
+    margin: 0px 30px 5px 5px;
+    font-size: 1.1em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav-active
+{
+    background-color: #ececec;
+}
+
+.page-content
+{
+    min-height: 90vh;
+    padding: 15px 20px;
+}
+
+.full-size-height
+{
+    min-height: 100vh;
+}
+
+#search-box-div
+{
+
+    text-align:left;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.trading-button {
+    padding: 10px 15px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.stock-price {
+font-size: 4.5em;
+}
+
+.trading-panel {
+background-color: #f0f0f0;
+}
+
+.trading-panel-flex {
+    flex-direction: column;
+}
